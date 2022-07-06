@@ -707,7 +707,7 @@ span.psw {
   }
 
   .bg-mock-up1 {
-      background-image: url('/images/bundle.jpeg');
+      background-image: url('/images/content-creator-resources.jpeg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -715,7 +715,7 @@ span.psw {
   }
 
   .bg-mock-up2 {
-    background-image: url('/images/mockup2.jpg');
+    background-image: url('/images/content-creator-course.jpeg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
