@@ -626,7 +626,7 @@ span.psw {
 
   .banner,
   .banner-with-header {
-    background-image: url('/images/banner.png');
+    background-image: url('/images/banner.jpg');
     background-size: cover;
     background-position: 15% 90%;
     min-height: 100vh;
@@ -1249,6 +1249,14 @@ a.bg-image-photography {
 @media(max-width:768px) {
 
   .banner, .banner2, .banner3 {min-height: 90vh;}
+
+  .banner,
+  .banner-with-header {
+    background-image: url('/images/mobile-banner.jpg');
+    background-size: cover;
+    background-position: 15% 90%;
+    min-height: 100vh;
+  }
 
   .mob-hide {
     display: none;
