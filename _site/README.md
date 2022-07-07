@@ -1,2 +1,0 @@
-# SMR-IG-Creator-Website
- 
