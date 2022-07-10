@@ -1016,7 +1016,6 @@ element.style {display: none;
     display: block;
     width: 100%;
     font-size: 1rem;
-    vertical-align: top;
   }
   .input-text:focus {
   border-color:  #efe9db;}
