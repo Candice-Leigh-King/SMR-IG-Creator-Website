@@ -60,7 +60,7 @@
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
 
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 5% !important;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .padded-4 {  padding:5rem;   }
@@ -78,6 +78,7 @@
   .padded-50 {padding: 48%;}
   .padded-sides-nav {padding: 0% 2%;}
   .padded-unique {padding: 2.5%;}
+  .padded-sides-adjusts-with-mob {padding: 0% 5% 0% 5% !important;}
 
 
   .capped-width { width: 80%; margin: auto;}
@@ -92,6 +93,8 @@
   .bg-light-grey { background-color: #eeeeee;}
   .bg-soft-pink {  background-color: #f2e7e3;}
   .bg-dark-beige {background-color: #d9d5ca;}
+
+  .shadow {box-shadow:  1px 2px 6px 3px rgb(0 0 0 / 20%)}
 
   .split-beige {background: linear-gradient(180deg,#fff 50%,#efe9db4d 50%);}
   .split-beige-white {background: linear-gradient(180deg,#efe9db4d 50%,#fff 50%);}
@@ -1203,7 +1206,7 @@ a.bg-image-photography {
    transition: all 0.5s;}
 
   .plus h4 {
-    line-height: 1;
+   
     padding: 2%;
     font-size: 1.3rem;
     font-weight: 200;
@@ -1248,6 +1251,7 @@ a.bg-image-photography {
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
+  .padded-sides-adjusts-with-mob {padding: 5% !important;}
   .banner, .banner2, .banner3 {min-height: 90vh;}
 
   .banner,
@@ -1270,7 +1274,7 @@ a.bg-image-photography {
     right: 3vh;
   }
 
-  .dream {font-size: 1.7rem;}
+  .dream {font-size: 1.5rem;}
 
 
 
@@ -1299,9 +1303,10 @@ a.bg-image-photography {
   .sm-bold { font-size: 2rem;}
 
   .bold1 {
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 200;
     margin-bottom: 0.8rem;}
+
 
   .price{
     text-align: center;
@@ -1317,9 +1322,9 @@ a.bg-image-photography {
 
   .centered-paragraphs {text-align: center;}
 
-  .padded-top {  padding-top: 5%;  }
-  .padded-bottom {padding-bottom: 2%;}
-  .padded-1 {padding: 0.7rem;}
+  .padded-top {  padding-top: 5% !important;  }
+  .padded-bottom {padding-bottom: 2% !important;}
+  .padded-1 {padding: 0.7rem !important;}
 
 
   .border-grey {
@@ -1393,7 +1398,7 @@ a.bg-image-photography {
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px){
 
-  p {font-size: 0.9rem;}
+  p {font-size: 1.1rem;}
 
   .mob-hide {
     display: none;
@@ -1404,19 +1409,17 @@ a.bg-image-photography {
   h3 {font-size: 1.2rem;}
   h4 {font-size: 1.1rem;}
 
-
-  .small-font{ font-size: 0.7rem}
   .web-dev h1 {font-size: 1.1rem;}
 
   .services {
     padding: 0% 1.6% 0% 1.6%;
     font-size: 0.6rem;}
 
-  .padded-top {  padding-top: 5%;  }
-  .padded-bottom {padding-bottom: 2%;}
-  .padded-2 {padding: 1rem 2rem 1rem 2rem;}
-  .padded-1 {padding: 0.4rem;}
-  .padded-top-left-bottom {padding: 0%;}
+  .padded-top {  padding-top: 5% !important; }
+  .padded-bottom {padding-bottom: 2% !important;}
+  .padded-2 {padding: 1rem 2rem 1rem 2rem !important;}
+  .padded-1 {padding: 0.4rem !important;}
+  .padded-top-left-bottom {padding: 0% !important;}
   .margin-neg {margin-bottom: -1%;}
 
 
@@ -1461,12 +1464,6 @@ a.bg-image-photography {
     padding: 0.5rem;
 
   }
-
-  .small-centered{
-    text-align: center;
-    font-size: 0.9rem;
-    }
-
 
   .vertical {
     top: 34rem;
