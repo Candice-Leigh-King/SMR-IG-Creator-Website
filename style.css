@@ -1247,9 +1247,14 @@ a.bg-image-photography {
 
 @media(min-width:769px){
   .desktop-hide {display: none;}
+
 }
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
+
+  header {
+    background-color: transparent;
+    box-shadow: none;}
 
   .padded-sides-adjusts-with-mob {padding: 5% !important;}
   .banner, .banner2, .banner3 {min-height: 90vh;}
