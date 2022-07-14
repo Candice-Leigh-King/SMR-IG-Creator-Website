@@ -631,7 +631,7 @@ span.psw {
   .banner-with-header {
     background-image: url('/images/monkey-island.jpg');
     background-size: cover;
-    background-position: 15% 90%;
+    background-position: center;
     min-height: 100vh;
   }
 
